@@ -34,10 +34,12 @@ var DiceRoller = React.createClass({
   render: function(){
     return (
       <div>
-        <DiceNum setNum={this.changeDieCount} />
-        <DiceType setType={this.changeDieType} />
+        <div className="diceSet">
+          <DiceNum setNum={this.changeDieCount} />
+          <DiceType setType={this.changeDieType} />
+        </div>
         <button onClick={this.rollDice}>Roll!</button>
-        Your result: {this.state.rollResult}
+        <p>Your result: {this.state.rollResult}</p>
         {console.log("DieType: " + this.state.dieType + ", DieCount: " + this.state.dieCount)}
       </div>
     )
