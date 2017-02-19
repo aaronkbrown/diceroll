@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget id="io.github.aaronkbrown" version="0.0.1">
+  <name>React Dice</name>
+  <description>A simple dice roller built using React</description>
+  <author email="aaron.kaoru.brown@gmail.com" href="http://aaronkbrown.github.io">aaronkbrown</author>
+  <platform name="ios" />
+  <platform name="android" />
+  <platform name="winphone" />
+</widget>
